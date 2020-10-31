@@ -3,6 +3,7 @@ def count_strings(array)
   array.count do |string|
     if string != 1 && string != [] && string != 5.01 string != :name string != { a: 1}
       return string 
+    end
       
 
 end
